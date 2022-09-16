@@ -6,15 +6,23 @@ import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 const projects = [
     {
         name: "text editor",
-        src: "https://text-editor-pwa3232.herokuapp.com/"
+        src: "https://text-editor-pwa3232.herokuapp.com/",
+        github: "https://github.com/MichaelS32/text-editor"
     },
     {
         name: "date de-stresser",
-        src: "https://yvettesalinas.github.io/date-destresser/"
+        src: "https://yvettesalinas.github.io/date-destresser/",
+        github: "https://github.com/yvettesalinas/date-destresser"
     },
     {
         name: "horiseon",
-        src: "https://michaels32.github.io/Horiseon-Challenge-01/"
+        src: "https://michaels32.github.io/Horiseon-Challenge-01/",
+        github: "https://github.com/MichaelS32/Horiseon-Challenge-01"
+    },
+    {
+        name: "Java Script Quiz",
+        src: "https://michaels32.github.io/js-quiz/",
+        github: "https://github.com/MichaelS32/js-quiz"
     }
 ]
 function Portfolio() {
@@ -25,6 +33,9 @@ function Portfolio() {
                     <div>
                         <a href={project.src}>
                             <h2>{project.name}</h2>
+                        </a>
+                        <a href={project.github}>
+                            <h3>Github Repo</h3>
                         </a>
                     </div>
                 </div>
