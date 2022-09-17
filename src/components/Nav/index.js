@@ -29,18 +29,18 @@ function categorySelected(name) {
 function Nav() {
     return (
         <header>
-            <h2>
-                <a href="/">
+            <h2 className='logo'>
+                <a href="/" className='navbar-brand'>
                     <span role="img" aria-label="hammer">🔨</span> Michael's Workshop
                 </a>
             </h2>
             <nav>
-                <ul className="flex-row">
+                <ul className="flex-row navbar has-shadow justify-content-around">
 
                     {categories.map((category) => (
-                        <li key={category.name}>
-                            <a href={category.link}>
-                                <span onClick={() => categorySelected(category.name)}>
+                        <li className='nav' key={category.name}>
+                            <a className='nav' href={category.link}>
+                                <span className='nav' onClick={() => categorySelected(category.name)}>
                                     {category.name}
                                 </span>
                             </a>
