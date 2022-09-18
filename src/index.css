@@ -1,3 +1,18 @@
+:root {
+  --primary: #35ce8d;
+  --secondary: #bcd8b7;
+  --tertiary: #6ba292;
+  --bg: #504b43;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -12,20 +28,27 @@ code {
     monospace;
 }
 
+header {
+  background-color: var(--bg);
+}
+
 main {
-  background-color: #504b43;
+  background-color: var(--bg);
 }
 
 .logo {
-  color: #8fd694
+  color: var(--primary);
 }
 
 .nav {
   text-decoration: none;
-  color: #8fd694
+  color: var(--tertiary);
 }
 
 .about-me {
-  color: #7dba84;
+  color: var(--secondary);
 }
 
+.navActive {
+  color: var(--primary);
+}
