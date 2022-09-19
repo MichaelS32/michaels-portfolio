@@ -2,8 +2,12 @@ import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import photo0 from './assets/portfolio/photo0';
+import photo1 from './assets/portfolio/photo1';
+import photo2 from './assets/portfolio/photo2';
+import photo3 from './assets/portfolio/photo3';
+import photo4 from './assets/portfolio/photo4';
 
 
 const projects = [
@@ -11,28 +15,28 @@ const projects = [
         name: "Text Editor",
         src: "https://text-editor-pwa3232.herokuapp.com/",
         github: "https://github.com/MichaelS32/text-editor",
-        img: "../../assets/portfolio/0.jpg",
+        img: { photo0 },
         alt: "screenshot of deployed text editor app"
     },
     {
         name: "Date De-stresser",
         src: "https://yvettesalinas.github.io/date-destresser/",
         github: "https://github.com/yvettesalinas/date-destresser",
-        img: "../../assets/portfolio/1.jpg",
+        img: { photo1 },
         alt: "screenshot of date destresser app"
     },
     {
         name: "Horiseon",
         src: "https://michaels32.github.io/Horiseon-Challenge-01/",
         github: "https://github.com/MichaelS32/Horiseon-Challenge-01",
-        img: "../../assets/portfolio/2.jpg",
+        img: { photo2 },
         alt: "screenshot of deployed horiseon challenge website"
     },
     {
         name: "Java Script Quiz",
         src: "https://michaels32.github.io/js-quiz/",
         github: "https://github.com/MichaelS32/js-quiz",
-        img: "../../assets/portfolio/3.jpg",
+        img: { photo3 },
         alt: "screenshot of deployed java script quiz app"
 
     },
@@ -40,20 +44,20 @@ const projects = [
         name: "Password Generator",
         src: "https://michaels32.github.io/password-generator/",
         github: "https://github.com/MichaelS32/password-generator",
-        img: "../../assets/portfolio/4.jpg",
+        img: { photo4 },
         alt: "screenshot of password generator app"
     }
 ]
 function Portfolio() {
     return (
-        <section>
+        <section id="portfolio">
             <div className='d-flex flex-wrap'>
                 {projects.map((project, i) => (
                     <Card className='p-2' sx={{ maxWidth: 345 }} key={project.name}>
                         <CardActionArea key={project.name}>
                             <CardMedia>
-                                <img
-                                    src={project.img}
+                                <img className='img-thumbnail'
+                                    src={`${project.img}`}
                                     alt={project.alt}
                                     key={project.img}
                                 />

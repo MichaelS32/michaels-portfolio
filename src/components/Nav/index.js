@@ -20,54 +20,54 @@ function Nav(props) {
 
     return (
         <header>
-            <Link to='/home'>
-                <h2 className='logo'>
-                    <a href="/" className='navbar-brand'>
+            <Link to='/home' className='text-decoration-none'>
+                <h1 className='logo'>
+                    <div className='navbar-brand'>
                         <span role="img" aria-label="hammer">🔨</span> Michael's Workshop
-                    </a>
-                </h2>
+                    </div>
+                </h1>
             </Link>
-            
+
             <nav>
                 <ul className="flex-row navbar has-shadow justify-content-around">
 
-                    <NavLink exact='true' activeClassname='active' to='/about'>
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/about'>
                         <li className='nav'>
-                            <a className='nav' href="#about">
-                                <span className='nav' onClick={() => setContactSelected(false)}>
-                                    About Me
-                                </span>
-                            </a>
+                            <h2 className='nav' href="#about">
+
+                                About Me
+
+                            </h2>
                         </li>
                     </NavLink>
-                    
-                    <NavLink exact='true' activeClassname='active' to='/contact'>
+
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/contact'>
                         <li className={`nav ${contactSelected && 'navActive'}`}>
-                            <a className='nav' href="#contact">
-                                <span className='nav' onClick={() => setContactSelected(true)}>
-                                    Contact
-                                </span>
-                            </a>
+                            <h2 className='nav' href="#contact">
+
+                                Contact
+
+                            </h2>
                         </li>
                     </NavLink>
-                    
-                    <NavLink exact='true' activeClassname='active' to='/portfolio'>
+
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/portfolio'>
                         <li className='nav'>
-                            <a className='nav' href="#portfolio">
-                                <span className='nav' onClick={() => setContactSelected(false)}>
-                                    Portfolio
-                                </span>
-                            </a>
+                            <h2 className='nav' href="#portfolio">
+
+                                Portfolio
+
+                            </h2>
                         </li>
                     </NavLink>
-                    
-                    <NavLink exact='true' activeClassname='active' to='resume'>
+
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='resume'>
                         <li className='nav'>
-                            <a className='nav' href="#resume">
-                                <span className='nav' onClick={() => setContactSelected(false)}>
-                                    Resume
-                                </span>
-                            </a>
+                            <h2 className='nav' href="#resume">
+
+                                Resume
+
+                            </h2>
                         </li>
                     </NavLink>
 
