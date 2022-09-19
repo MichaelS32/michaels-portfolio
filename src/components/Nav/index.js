@@ -7,12 +7,6 @@ function categorySelected(name) {
 }
 
 function Nav(props) {
-    const {
-        contactSelected,
-        currentCategory,
-        setContactSelected
-
-    } = props;
 
     useEffect(() => {
         document.title = categorySelected.name
@@ -29,11 +23,11 @@ function Nav(props) {
             </Link>
 
             <nav>
-                <ul className="flex-row navbar has-shadow justify-content-around">
+                <ul className="flex-row navbar has-shadow justify-content-around background">
 
                     <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/about'>
                         <li className='nav'>
-                            <h2 className='nav' href="#about">
+                            <h2 className='nav hovering' href="#about">
 
                                 About Me
 
@@ -41,9 +35,9 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/contact'>
-                        <li className={`nav ${contactSelected && 'navActive'}`}>
-                            <h2 className='nav' href="#contact">
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none ' to='/contact'>
+                        <li className={`nav 'navActive'}`}>
+                            <h2 className='nav hovering' href="#contact">
 
                                 Contact
 
@@ -53,7 +47,7 @@ function Nav(props) {
 
                     <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/portfolio'>
                         <li className='nav'>
-                            <h2 className='nav' href="#portfolio">
+                            <h2 className='nav hovering' href="#portfolio">
 
                                 Portfolio
 
@@ -61,9 +55,9 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='resume'>
+                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/resume'>
                         <li className='nav'>
-                            <h2 className='nav' href="#resume">
+                            <h2 className='nav hovering' href="#resume">
 
                                 Resume
 

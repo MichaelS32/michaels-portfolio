@@ -12,6 +12,10 @@
   --spacing-five: calc(2.5rem);
 }
 
+html {
+  background-color: var(--bg);
+}
+
 
 body {
   margin: 0;
@@ -43,12 +47,42 @@ main {
 .nav {
   text-decoration: none;
   color: var(--tertiary);
+  margin-bottom: 2vh;
 }
 
 .about-me {
-  color: var(--secondary);
+  color: var(--light);
 }
 
 .navActive {
   color: var(--primary);
+}
+
+.NavItem:active {
+  background-color: var(--primary); //some color of your choice//
+}
+
+.hovering:hover {
+  color: var(--primary);
+}
+
+.background {
+
+  background-color: var(--bg);
+
+}
+
+.portfolio-card {
+  background-color: var(--tertiary) !important;
+  color: var(--secondary);
+}
+
+.card-width {
+  width: 40vw;
+  text-align: center;
+  margin: auto;
+}
+
+.text-right {
+  text-align: right;
 }

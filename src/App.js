@@ -7,7 +7,8 @@ import Home from './components/Home';
 import Layout from './components/Layout';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import 'bootstrap'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='portfolio' element={<Portfolio />} />
-          {/* <Route path='about' element={<Resume />} /> */}
+          <Route path='resume' element={<Resume />} />
 
         </Route>
 

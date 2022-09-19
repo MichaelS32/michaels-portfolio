@@ -2,14 +2,16 @@ import { Outlet } from 'react-router-dom';
 import Nav from '../Nav';
 
 const Layout = () => {
-    return <div className='App'>
-        <Nav />
-        <div className='page'>
+    return (
+        <div className='App'>
+            <Nav />
+            <div className='page background'>
 
-            <Outlet />
+                <Outlet />
 
+            </div>
         </div>
-    </div>
+    )
 }
 
 export default Layout;
