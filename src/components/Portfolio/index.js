@@ -7,7 +7,7 @@ import photo0 from '../../assets/portfolio/';
 import photo1 from './assets/portfolio/photo1.png';
 import photo2 from './assets/portfolio/photo2.png';
 import photo3 from './assets/portfolio/photo3.png';
-import photo4 from './assets/portfolio/photo4.png';
+import photo4 from '../../';
 
 
 const projects = [
