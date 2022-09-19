@@ -3,11 +3,11 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import photo0 from './assets/portfolio/photo0';
-import photo1 from './assets/portfolio/photo1';
-import photo2 from './assets/portfolio/photo2';
-import photo3 from './assets/portfolio/photo3';
-import photo4 from './assets/portfolio/photo4';
+import photo0 from '../../assets/portfolio/';
+import photo1 from './assets/portfolio/photo1.png';
+import photo2 from './assets/portfolio/photo2.png';
+import photo3 from './assets/portfolio/photo3.png';
+import photo4 from './assets/portfolio/photo4.png';
 
 
 const projects = [
@@ -57,7 +57,7 @@ function Portfolio() {
                         <CardActionArea key={project.name}>
                             <CardMedia>
                                 <img className='img-thumbnail'
-                                    src={`${project.img}`}
+                                    src={require(`../../assets/portfolio/photo0`)}
                                     alt={project.alt}
                                     key={project.img}
                                 />
