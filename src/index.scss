@@ -10,6 +10,7 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  font-size: calc(1vw + 1vh + .5vmin);
 }
 
 html {
@@ -41,6 +42,10 @@ main {
   background-color: var(--bg);
 }
 
+.nav-text {
+  font-size: 2rem;
+}
+
 .logo {
   color: var(--primary);
 }
@@ -48,11 +53,19 @@ main {
 .nav {
   text-decoration: none;
   color: var(--tertiary);
-  margin-bottom: 3vh;
 }
 
 .about-me {
   color: var(--light);
+  margin: auto;
+}
+
+h1.about-me {
+  font-size: 1.6rem;
+}
+
+p.about-me {
+  font-size: .6rem;
 }
 
 .navActive {
@@ -74,13 +87,16 @@ main {
 }
 
 .card-image {
-  width: 35vw;
+  max-width: 90vw;
   height: auto;
+
 }
 
 .portfolio-card {
   background-color: var(--tertiary) !important;
   color: var(--secondary);
+  justify-content: center;
+  margin: auto;
 }
 
 .card-width {
@@ -89,6 +105,40 @@ main {
   margin: auto;
 }
 
+.project-image {
+  width: 20vw;
+  height: auto;
+  margin: 2vh auto auto auto;
+}
+
+.project-container {
+  margin: auto;
+}
+
+.text-size {
+  font-size: 1rem;
+}
+
+.alt-size {
+  font-size: .25rem;
+}
+
 .text-right {
   text-align: right;
+}
+
+.form-input {
+  width: 35vw;
+}
+
+.form-text-1 {
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  color: var(--primary);
 }

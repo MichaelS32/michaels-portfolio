@@ -1,20 +1,18 @@
-import React, { useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom'
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
-
-function categorySelected(name) {
-    console.log(`${name} clicked`)
-}
 
 function Nav(props) {
+    const location = useLocation();
 
-    useEffect(() => {
-        document.title = categorySelected.name
-    })
+    const { pathname } = location;
+
+    const splitLocation = pathname.split("/");
 
     return (
         <header>
-            <Link to='/home' className='text-decoration-none'>
+            <Link to='/' className='text-decoration-none'>
                 <h1 className='logo'>
                     <div className='navbar-brand'>
                         <span role="img" aria-label="hammer">🔨</span> Michael's Workshop
@@ -25,9 +23,9 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row navbar has-shadow justify-content-around background">
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/about'>
+                    <NavLink exact='true' className={splitLocation[1] === "about" ? "active" : "nav"} to='/about'>
                         <li className='nav'>
-                            <h2 className='nav hovering' href="#about">
+                            <h2 className='nav hovering nav-text' href="#about">
 
                                 About Me
 
@@ -35,9 +33,9 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none ' to='/contact'>
+                    <NavLink exact='true' className={splitLocation[1] === "contact" ? "active" : "nav"} to='/contact'>
                         <li className={`nav 'navActive'}`}>
-                            <h2 className='nav hovering' href="#contact">
+                            <h2 className='nav hovering nav-text' href="#contact">
 
                                 Contact
 
@@ -45,9 +43,9 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/portfolio'>
+                    <NavLink exact='true' className={splitLocation[1] === "portfolio" ? "active" : "nav"} to='/portfolio'>
                         <li className='nav'>
-                            <h2 className='nav hovering' href="#portfolio">
+                            <h2 className='nav hovering nav-text text-decoration-none' href="#portfolio">
 
                                 Portfolio
 
@@ -55,9 +53,9 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' className='text-decoration-none' to='/resume'>
+                    <NavLink exact='true' className={splitLocation[1] === "resume" ? "active" : "nav"} to='/resume'>
                         <li className='nav'>
-                            <h2 className='nav hovering' href="#resume">
+                            <h2 className='nav hovering nav-text' href="#resume">
 
                                 Resume
 
