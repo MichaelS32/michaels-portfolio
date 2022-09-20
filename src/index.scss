@@ -37,6 +37,7 @@ header {
 }
 
 main {
+  margin-top: 4vh;
   background-color: var(--bg);
 }
 
@@ -47,7 +48,7 @@ main {
 .nav {
   text-decoration: none;
   color: var(--tertiary);
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
 .about-me {
@@ -70,6 +71,11 @@ main {
 
   background-color: var(--bg);
 
+}
+
+.card-image {
+  width: 35vw;
+  height: auto;
 }
 
 .portfolio-card {

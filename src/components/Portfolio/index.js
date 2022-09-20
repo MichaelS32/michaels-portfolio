@@ -1,11 +1,11 @@
 import React from 'react';
 import uuid from 'react-uuid';
 
-// import photo0 from '../../photo0.png';
-// import photo1 from '../../photo1.png';
-// import photo2 from '../../photo2.png';
-// import photo3 from '../../photo3.png';
-// import photo4 from '../../photo4.png';
+import photo0 from 'https://github.com/MichaelS32/michaels-portfolio/tree/main/src/assets/photo0.png';
+import photo1 from 'https://github.com/MichaelS32/michaels-portfolio/tree/main/src/assets/photo1.png';
+import photo2 from 'https://github.com/MichaelS32/michaels-portfolio/tree/main/src/assets/photo2.png';
+import photo3 from 'https://github.com/MichaelS32/michaels-portfolio/tree/main/src/assets/photo3.png';
+import photo4 from 'https://github.com/MichaelS32/michaels-portfolio/tree/main/src/assets/photo4.png';
 
 
 
@@ -15,36 +15,36 @@ const projects = [
         name: "Text Editor",
         src: "https://text-editor-pwa3232.herokuapp.com/",
         github: "https://github.com/MichaelS32/text-editor",
-        // img: { photo0 },
-        alt: "screenshot of deployed text editor app"
+        imge: { photo0 },
+        alt: "screenshot of text editor app"
     },
     {
         name: "Date De-stresser",
         src: "https://yvettesalinas.github.io/date-destresser/",
         github: "https://github.com/yvettesalinas/date-destresser",
-        // img: { photo1 },
+        imge: { photo1 },
         alt: "screenshot of date destresser app"
     },
     {
         name: "Horiseon",
         src: "https://michaels32.github.io/Horiseon-Challenge-01/",
         github: "https://github.com/MichaelS32/Horiseon-Challenge-01",
-        // img: { photo2 },
-        alt: "screenshot of deployed horiseon challenge website"
+        imge: { photo2 },
+        alt: "screenshot of horiseon challenge website"
     },
     {
         name: "Java Script Quiz",
         src: "https://michaels32.github.io/js-quiz/",
         github: "https://github.com/MichaelS32/js-quiz",
-        // img: { photo3 },
-        alt: "screenshot of deployed java script quiz app"
+        imge: { photo3 },
+        alt: "screenshot of java script quiz app"
 
     },
     {
         name: "Password Generator",
         src: "https://michaels32.github.io/password-generator/",
-        github: "https://github.com/MichaelS32/password-generator",
-        // img: { photo4 },
+        github: "https://michaels32.github.io/Password-Generator/",
+        imge: { photo4 },
         alt: "screenshot of password generator app"
     }
 ]
@@ -52,14 +52,14 @@ function Portfolio() {
     return (
         <section id="portfolio">
             <div className='d-flex flex-wrap background' key={uuid()}>
-                {projects.map((project, i) => (
+                {projects.map((project, imge) => (
                     <div className='card p-2 portfolio-card' key={uuid()}>
 
                         <img
-                            // src={require(project.img)}
+                            src={project.imge}
                             alt={project.alt}
                             key={project.alt}
-                            className='img-thumbnail card-img-top'
+                            className='card-image'
                         />
 
 
@@ -81,4 +81,5 @@ function Portfolio() {
     )
 }
 
+console.log(projects.imge);
 export default Portfolio;
