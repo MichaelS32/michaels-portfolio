@@ -1,7 +1,7 @@
 # React-Portfolio
 
 ## Deployment
-https://michaels32.github.io/michaels-portfolio/#/home
+https://michaels32.github.io/michaels-portfolio/
 
 ## Description
 This is a portfolio I made using React and deployed to github pages to show my work to future employers and collaborators. 
