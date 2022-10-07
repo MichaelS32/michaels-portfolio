@@ -6,6 +6,7 @@ import photo2 from '../../assets/photo2.png';
 import photo3 from '../../assets/photo3.png';
 import photo4 from '../../assets/photo4.png';
 import photo5 from '../../assets/photo5.png';
+import photo6 from '../../assets/photo6.png';
 
 
 function Portfolio() {
@@ -139,6 +140,28 @@ function Portfolio() {
                                 <h2 className='card-title portfolio-card hovering text-size'>Note Taker</h2>
                             </a>
                             <a className="text-decoration-none" href='https://github.com/MichaelS32/note-taker'>
+                                <h3 className='card-text portfolio-card hovering text-size'>Github Repo</h3>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+
+                        <img
+                            src={photo6}
+                            alt='screenshot of note taker app'
+                            className='card-image img-thumbnail project-image'
+                        />
+
+
+                        <div className='card-body portfolio-card'>
+
+                            <a className="text-decoration-none" href='https://so-fit.herokuapp.com/'>
+                                <h2 className='card-title portfolio-card hovering text-size'>SoFit</h2>
+                            </a>
+                            <a className="text-decoration-none" href='https://github.com/MichaelS32/fitness-tracker'>
                                 <h3 className='card-text portfolio-card hovering text-size'>Github Repo</h3>
                             </a>
 
