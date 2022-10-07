@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/michaels-portfolio/static/css/main.c3afad01.css",
-    "main.js": "/michaels-portfolio/static/js/main.f38fea44.js",
+    "main.css": "/michaels-portfolio/static/css/main.395a199d.css",
+    "main.js": "/michaels-portfolio/static/js/main.01af8ea5.js",
     "static/js/787.86fd017a.chunk.js": "/michaels-portfolio/static/js/787.86fd017a.chunk.js",
+    "static/media/photo6.png": "/michaels-portfolio/static/media/photo6.b2321724e9b3c6131fce.png",
     "static/media/bio-pic.jpg": "/michaels-portfolio/static/media/bio-pic.6676025cce73d267f484.jpg",
     "static/media/photo2.png": "/michaels-portfolio/static/media/photo2.4b9673b988f1a830e3a0.png",
     "static/media/photo1.png": "/michaels-portfolio/static/media/photo1.d5c1f8cd87bb6e30f16c.png",
@@ -12,12 +13,12 @@
     "static/media/photo5.png": "/michaels-portfolio/static/media/photo5.e3dae4e49eaf04249c62.png",
     "static/media/MichaelSchneider-2022resume.docx": "/michaels-portfolio/static/media/MichaelSchneider-2022resume.0f03de07d14671dd8c84.docx",
     "index.html": "/michaels-portfolio/index.html",
-    "main.c3afad01.css.map": "/michaels-portfolio/static/css/main.c3afad01.css.map",
-    "main.f38fea44.js.map": "/michaels-portfolio/static/js/main.f38fea44.js.map",
+    "main.395a199d.css.map": "/michaels-portfolio/static/css/main.395a199d.css.map",
+    "main.01af8ea5.js.map": "/michaels-portfolio/static/js/main.01af8ea5.js.map",
     "787.86fd017a.chunk.js.map": "/michaels-portfolio/static/js/787.86fd017a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3afad01.css",
-    "static/js/main.f38fea44.js"
+    "static/css/main.395a199d.css",
+    "static/js/main.01af8ea5.js"
   ]
 }
