@@ -151,7 +151,7 @@ function Portfolio() {
 
                         <img
                             src={photo6}
-                            alt='screenshot of note taker app'
+                            alt='screenshot of SoFit App'
                             className='card-image img-thumbnail project-image'
                         />
 
