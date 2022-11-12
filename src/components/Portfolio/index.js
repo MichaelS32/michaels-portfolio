@@ -7,6 +7,7 @@ import photo3 from '../../assets/photo3.png';
 import photo4 from '../../assets/photo4.png';
 import photo5 from '../../assets/photo5.png';
 import photo6 from '../../assets/photo6.png';
+import photo7 from '../../assets/photo7.png';
 
 
 function Portfolio() {
@@ -15,12 +16,34 @@ function Portfolio() {
             <div className='container background'>
                 <div className='row project-container'>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+
+                        <img
+                            src={photo7}
+                            alt='screenshot of text editor app'
+                            className='project-image'
+                        />
+
+
+                        <div className='card-body portfolio-card'>
+
+                            <a className="text-decoration-none" href='https://text-editor-pwa3232.herokuapp.com/'>
+                                <h2 className='card-title portfolio-card hovering text-size'>Mercury Communications</h2>
+                            </a>
+                            <a className="text-decoration-none" href='https://github.com/MichaelS32/text-editor'>
+                                <h3 className='card-text portfolio-card hovering text-size'>Github Repo</h3>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo0}
                             alt='screenshot of text editor app'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -37,12 +60,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo1}
                             alt='screenshot of date destresser app'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -59,12 +82,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo2}
                             alt='screenshot of horiseon challenge website'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -81,12 +104,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo3}
                             alt='screenshot of java script quiz app'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -103,12 +126,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo4}
                             alt='screenshot of password generator app'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -125,12 +148,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo5}
                             alt='screenshot of note taker app'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 
@@ -147,12 +170,12 @@ function Portfolio() {
 
                     </div>
 
-                    <div className='card portfolio-card col-7 col-sm-7 col-md-4 col-lg-3 col-xl-4'>
+                    <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
 
                         <img
                             src={photo6}
                             alt='screenshot of SoFit App'
-                            className='card-image img-thumbnail project-image'
+                            className='project-image'
                         />
 
 

@@ -1,8 +1,8 @@
 :root {
-  --primary: #35ce8d;
+  --primary: #91c499;
   --secondary: #bcd8b7;
   --tertiary: #6ba292;
-  --bg: #504b43;
+  --bg: #595959;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -11,6 +11,7 @@
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
   font-size: calc(1vw + 1vh + .5vmin);
+  background-color: var(--bg);
 }
 
 html {
@@ -25,6 +26,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
 
 }
 
@@ -42,23 +44,53 @@ main {
   background-color: var(--bg);
 }
 
+.nav-container {
+  width: auto;
+  padding-bottom: 3vh;
+  background-color: var(--bg);
+}
+
 .nav-text {
-  font-size: 2rem;
+  font-size: large;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 1vw;
 }
 
 .logo {
-  color: var(--primary);
+  color: var(--secondary);
+}
+
+.title-size {
+  font-size: x-large;
+  margin-top: 1.5vh;
 }
 
 .nav {
   text-decoration: none;
-  color: var(--tertiary);
+  color: var(--secondary);
+  background-color: var(--bg);
+  margin-bottom: 0 !important;
+}
+.nav ul {
+  margin-bottom: 0 !important;
+}
+
+.background {
   background-color: var(--bg);
   margin-bottom: 0 !important;
 }
 
+.home-card {
+  text-align: center;
+  font-size: 1rem;
+}
+
 .about-me {
   color: var(--light);
+  text-align: leftim;
   margin: auto;
 }
 
@@ -68,6 +100,10 @@ h1.about-me {
 
 p.about-me {
   font-size: .6rem;
+}
+
+.prof-pic {
+  border-radius: 10%
 }
 
 .navActive {
@@ -82,12 +118,6 @@ p.about-me {
   color: var(--primary);
 }
 
-.background {
-
-  background-color: var(--bg);
-
-}
-
 .card-image {
   max-width: 90vw;
   height: auto;
@@ -98,27 +128,34 @@ p.about-me {
   background-color: var(--tertiary) !important;
   color: var(--secondary);
   justify-content: center;
-  margin: auto;
+  margin: 1vw 1px;
 }
 
 .card-width {
   width: 40vw;
   text-align: center;
   margin: auto;
+  
+
 }
 
 .project-image {
-  width: 20vw;
+  width: 15vw;
   height: auto;
   margin: 2vh auto auto auto;
+  
+  
 }
 
 .project-container {
   margin: auto;
+  text-align: center;
+  justify-content: space-around;
+  
 }
 
 .text-size {
-  font-size: 1rem;
+  font-size: .7rem;
 }
 
 .alt-size {
@@ -129,12 +166,37 @@ p.about-me {
   text-align: right;
 }
 
+.form-container {
+  text-align: left;
+  margin: auto;
+  
+}
+
+
+.spacing {
+  padding-top: 2vh;
+}
+
 .form-input {
-  width: 35vw;
+  width: 100%;
+  margin: 1vh auto;
 }
 
 .form-text-1 {
-  font-size: 1.5rem;
+  font-size: .8rem;
+}
+
+.submit-btn {
+  color: var(--light);
+  background-color: var(--secondary);
+  border-radius: 15%;
+  margin: 2vh auto;
+  border: none;
+  font-size: .7rem;
+}
+
+.resume {
+  width: 50vw;
 }
 
 .center {

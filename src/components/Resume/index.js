@@ -1,5 +1,6 @@
 import React from 'react';
-import resume from '../../MichaelSchneider-2022resume.docx'
+import resume from '../../michael-resume-10-22.docx'
+import screenshot from '../../assets/resume-screenshot.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
 
@@ -7,7 +8,10 @@ function Resume() {
     return (
         <section id="resume">
             <div >
-                <a href={resume} download>Click here to download my resume</a>
+                <p className='logo'>Click the document below to download my resume</p>
+                <a href={resume} download>
+                    <img className='resume' src={screenshot} alt='resume screenshot' />
+                </a>
             </div>
 
 

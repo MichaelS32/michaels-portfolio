@@ -1,16 +1,26 @@
 import React from 'react';
 import bio from '../../bio-pic.jpg'
+import 'react-slideshow-image/dist/styles.css';
+
 
 function About() {
     return (
         <section>
             <div className='container'>
                 <div className='row'>
-                    <img className='card-image card-width img-thumbnail col-9 col-sm-9 col-md-5 col-lg-5 col-xl-5' src={bio} alt="It's me!" />
+                    <img className='prof-pic col-9 col-sm-9 col-md-5 col-lg-5 col-xl-5' src={bio} alt="It's me!" />
                     <div className='card portfolio-card col-9 col-sm-9 col-md-5 col-lg-5 col-xl-5'>
                         <div className='card-body about-me'>
                             <h1 id="about" className="about-me card-title">A little about me:</h1>
-                            <p className="about-me card-text">My name is Michael Schneider. For a living I currently work on phone systems and network equipment while learning how to develop on the side. I've lived in South Texas my whole life, but I am eager to use web development as a way to get out and explore the world we live in. Being an avid lover of all things natural and outdoors, my goal is to create web environments that flow just as beatifully and in sync.</p>
+                            <p className="about-me card-text">
+                                I'm an adaptable full-stack developer looking for a position within an established company where I can use my creativity and coding knowledge to produce 
+                                a great user experience.
+                                <br />
+                                <br />
+                                I would describe myself as an adventurous, competitive and intuitive builder with a knack for problem solving. From legos to woodworking and now phone systems and web apps, 
+                                I have always had a passion for making things with my own two hands and doing my best to figure out the bugs in the process. When I'm not building something I like to hike or take out 
+                                my kayak for a relaxing time on the lake.
+                            </p>
                         </div>
                     </div>
                 </div>

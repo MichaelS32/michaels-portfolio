@@ -11,17 +11,18 @@ function Nav(props) {
     const splitLocation = pathname.split("/");
 
     return (
-        <header>
-            <Link to='/' className='text-decoration-none'>
-                <h1 className='logo'>
-                    <div className='navbar-brand'>
-                        <span role="img" aria-label="hammer">🔨</span> Michael's Workshop
-                    </div>
-                </h1>
-            </Link>
+        <header className='background container'>
+            
 
-            <nav>
-                <ul className="flex-row navbar has-shadow justify-content-around background">
+            <nav className='nav-container row'>
+                <Link to='/' className='text-decoration-none col-4'>
+                    <h1 className='logo'>
+                        <div className='navbar-brand title-size'>
+                             Michael Schneider
+                        </div>
+                    </h1>
+                </Link>
+                <ul className=" navbar has-shadow nav-links justify-content-around background col-6">
 
                     <NavLink exact='true' className={splitLocation[1] === "about" ? "active" : "nav"} to='/about'>
                         <li className='nav'>
@@ -34,7 +35,7 @@ function Nav(props) {
                     </NavLink>
 
                     <NavLink exact='true' className={splitLocation[1] === "contact" ? "active" : "nav"} to='/contact'>
-                        <li className={`nav 'navActive'}`}>
+                        <li className='nav'>
                             <h2 className='nav hovering nav-text' href="#contact">
 
                                 Contact
