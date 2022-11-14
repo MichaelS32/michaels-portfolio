@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FadeIn } from 'react-slide-fade-in';
 import apiKey from '../../emailKey.js'
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser'
@@ -44,37 +45,45 @@ function ContactForm() {
     };
 
     return (
-        <section id="contact">
-            <div className='container center'>
-                <div className="card portfolio-card row">
-                    <div className="">
-                        <h1 className="card-title form-text-1 spacing">Contact me</h1>
-                        <form id="contact-form" className='form-container' onSubmit={handleSubmit}>
-                            <div>
-                                <label htmlFor="name" className='center form-text-1'>Name:</label>
-                                <input type="text" name="name" className='form-input' defaultValue={name} onBlur={handleChange} />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className='center form-text-1'>Email address:</label>
-                                <input type="email" name="email" className='form-input' defaultValue={email} onBlur={handleChange} />
-                            </div>
-                            <div>
-                                <label htmlFor="message" className='center form-text-1'>Message:</label>
-                                <textarea name="message" rows="5" className='form-input' defaultValue={message} onBlur={handleChange} />
-                            </div>
-                            {errorMessage && (
+        <FadeIn
+            from='right'
+            positionOffset={900}
+            triggerOffset={200}
+            delayInMilliseconds={250}
+            durationInMilliseconds={1000}
+            >
+            <section id="contact">
+                <div className='container center'>
+                    <div className="card portfolio-card row">
+                        <div className="">
+                            <h1 className="card-title form-text-1 spacing">Contact me</h1>
+                            <form id="contact-form" className='form-container' onSubmit={handleSubmit}>
                                 <div>
-                                    <p className="error-text">{errorMessage}</p>
+                                    <label htmlFor="name" className='center form-text-1'>Name:</label>
+                                    <input type="text" name="name" className='form-input' defaultValue={name} onBlur={handleChange} />
                                 </div>
-                            )}
-                            <button data-testid="button" type="submit" className='submit-btn'>
-                                Submit
-                            </button>
-                        </form>
+                                <div>
+                                    <label htmlFor="email" className='center form-text-1'>Email address:</label>
+                                    <input type="email" name="email" className='form-input' defaultValue={email} onBlur={handleChange} />
+                                </div>
+                                <div>
+                                    <label htmlFor="message" className='center form-text-1'>Message:</label>
+                                    <textarea name="message" rows="5" className='form-input' defaultValue={message} onBlur={handleChange} />
+                                </div>
+                                {errorMessage && (
+                                    <div>
+                                        <p className="error-text">{errorMessage}</p>
+                                    </div>
+                                )}
+                                <button data-testid="button" type="submit" className='submit-btn'>
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </FadeIn>
     );
 }
 

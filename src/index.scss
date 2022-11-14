@@ -44,10 +44,12 @@ main {
   background-color: var(--bg);
 }
 
+
 .nav-container {
-  width: auto;
+  width: 100vw;
   padding-bottom: 3vh;
   background-color: var(--bg);
+  margin: 0 1vw;
 }
 
 .nav-text {
@@ -81,16 +83,36 @@ main {
 .background {
   background-color: var(--bg);
   margin-bottom: 0 !important;
+  
 }
 
 .home-card {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  justify-content: center;
+  color: var(--primary);
+  width: 35vw;
+  text-align: left;
+  margin-left: 5vw;
+  
+}
+
+.home-layout {
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.about-layout {
+  margin: 2vh auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me {
   color: var(--light);
-  text-align: leftim;
+  text-align: left;
   margin: auto;
 }
 
@@ -126,9 +148,10 @@ p.about-me {
 
 .portfolio-card {
   background-color: var(--tertiary) !important;
-  color: var(--secondary);
-  justify-content: center;
+  color: var(--light);
+  padding: 0 1vw;
   margin: 1vw 1px;
+  justify-content: center;
 }
 
 .card-width {
@@ -140,9 +163,9 @@ p.about-me {
 }
 
 .project-image {
-  width: 15vw;
+  width: 14vw;
   height: auto;
-  margin: 2vh auto auto auto;
+  margin: 2vh auto 0 auto;
   
   
 }
@@ -205,4 +228,41 @@ p.about-me {
 
 .active {
   color: var(--primary);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo {
+    color: var(--secondary);
+    width: 80vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo {
+    color: var(--secondary);
+    width: 80vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo {
+    color: var(--secondary);
+    
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .logo {
+    color: var(--secondary);
+    
+  }
 }

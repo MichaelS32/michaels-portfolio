@@ -5,7 +5,7 @@ const Layout = () => {
     return (
         <div className='App'>
             <Nav />
-            <div className='page background'>
+            <div className='background'>
 
                 <Outlet />
 

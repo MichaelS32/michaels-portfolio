@@ -11,7 +11,7 @@ function Nav(props) {
     const splitLocation = pathname.split("/");
 
     return (
-        <header className='background container'>
+        <header>
             
 
             <nav className='nav-container row'>
@@ -34,21 +34,21 @@ function Nav(props) {
                         </li>
                     </NavLink>
 
-                    <NavLink exact='true' className={splitLocation[1] === "contact" ? "active" : "nav"} to='/contact'>
-                        <li className='nav'>
-                            <h2 className='nav hovering nav-text' href="#contact">
-
-                                Contact
-
-                            </h2>
-                        </li>
-                    </NavLink>
-
                     <NavLink exact='true' className={splitLocation[1] === "portfolio" ? "active" : "nav"} to='/portfolio'>
                         <li className='nav'>
                             <h2 className='nav hovering nav-text text-decoration-none' href="#portfolio">
 
                                 Portfolio
+
+                            </h2>
+                        </li>
+                    </NavLink>
+
+                    <NavLink exact='true' className={splitLocation[1] === "contact" ? "active" : "nav"} to='/contact'>
+                        <li className='nav'>
+                            <h2 className='nav hovering nav-text' href="#contact">
+
+                                Contact
 
                             </h2>
                         </li>
