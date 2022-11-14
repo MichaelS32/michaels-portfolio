@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/michaels-portfolio/static/css/main.74e53e32.css",
-    "main.js": "/michaels-portfolio/static/js/main.f7d15551.js",
+    "main.css": "/michaels-portfolio/static/css/main.76aae447.css",
+    "main.js": "/michaels-portfolio/static/js/main.84cf14b9.js",
     "static/js/787.86fd017a.chunk.js": "/michaels-portfolio/static/js/787.86fd017a.chunk.js",
     "static/media/photo7.png": "/michaels-portfolio/static/media/photo7.fc1705e678ec319235aa.png",
     "static/media/photo6.png": "/michaels-portfolio/static/media/photo6.b2321724e9b3c6131fce.png",
@@ -13,14 +13,14 @@
     "static/media/photo0.png": "/michaels-portfolio/static/media/photo0.1f6588c7840ac67149dd.png",
     "static/media/photo3.png": "/michaels-portfolio/static/media/photo3.1c48d5cc3af6e3022a5a.png",
     "static/media/photo5.png": "/michaels-portfolio/static/media/photo5.e3dae4e49eaf04249c62.png",
-    "static/media/michael-resume-10-22.docx": "/michaels-portfolio/static/media/michael-resume-10-22.a90b8d2a0424a3f8c79a.docx",
+    "static/media/michael-resume-10-22.docx": "/michaels-portfolio/static/media/michael-resume-10-22.d2cf3c7c575f78699fd5.docx",
     "index.html": "/michaels-portfolio/index.html",
-    "main.74e53e32.css.map": "/michaels-portfolio/static/css/main.74e53e32.css.map",
-    "main.f7d15551.js.map": "/michaels-portfolio/static/js/main.f7d15551.js.map",
+    "main.76aae447.css.map": "/michaels-portfolio/static/css/main.76aae447.css.map",
+    "main.84cf14b9.js.map": "/michaels-portfolio/static/js/main.84cf14b9.js.map",
     "787.86fd017a.chunk.js.map": "/michaels-portfolio/static/js/787.86fd017a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74e53e32.css",
-    "static/js/main.f7d15551.js"
+    "static/css/main.76aae447.css",
+    "static/js/main.84cf14b9.js"
   ]
 }
