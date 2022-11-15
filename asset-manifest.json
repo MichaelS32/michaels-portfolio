@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/michaels-portfolio/static/css/main.c2e87f55.css",
-    "main.js": "/michaels-portfolio/static/js/main.307bc579.js",
+    "main.css": "/michaels-portfolio/static/css/main.c17c6849.css",
+    "main.js": "/michaels-portfolio/static/js/main.8854e8d5.js",
     "static/js/787.86fd017a.chunk.js": "/michaels-portfolio/static/js/787.86fd017a.chunk.js",
     "static/media/photo7.png": "/michaels-portfolio/static/media/photo7.fc1705e678ec319235aa.png",
+    "static/media/mountain-footer.png": "/michaels-portfolio/static/media/mountain-footer.0d8c1cdbc65724319b38.png",
     "static/media/photo6.png": "/michaels-portfolio/static/media/photo6.b2321724e9b3c6131fce.png",
     "static/media/bio-pic.jpg": "/michaels-portfolio/static/media/bio-pic.6676025cce73d267f484.jpg",
     "static/media/photo2.png": "/michaels-portfolio/static/media/photo2.4b9673b988f1a830e3a0.png",
@@ -15,12 +16,12 @@
     "static/media/photo3.png": "/michaels-portfolio/static/media/photo3.1c48d5cc3af6e3022a5a.png",
     "static/media/photo5.png": "/michaels-portfolio/static/media/photo5.e3dae4e49eaf04249c62.png",
     "index.html": "/michaels-portfolio/index.html",
-    "main.c2e87f55.css.map": "/michaels-portfolio/static/css/main.c2e87f55.css.map",
-    "main.307bc579.js.map": "/michaels-portfolio/static/js/main.307bc579.js.map",
+    "main.c17c6849.css.map": "/michaels-portfolio/static/css/main.c17c6849.css.map",
+    "main.8854e8d5.js.map": "/michaels-portfolio/static/js/main.8854e8d5.js.map",
     "787.86fd017a.chunk.js.map": "/michaels-portfolio/static/js/787.86fd017a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2e87f55.css",
-    "static/js/main.307bc579.js"
+    "static/css/main.c17c6849.css",
+    "static/js/main.8854e8d5.js"
   ]
 }
