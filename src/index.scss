@@ -85,6 +85,16 @@ main {
   width: 100vw;
 }
 
+.footer-info {
+  font-size: .85rem;
+  color: var(--light);
+  margin-top: 0;
+}
+
+.footer-icon {
+  padding: 0 4px;
+}
+
 .background {
   background-color: var(--bg);
   margin-bottom: 0 !important;
@@ -126,7 +136,7 @@ h1.about-me {
 }
 
 p.about-me {
-  font-size: .6rem;
+  font-size: .9rem;
 }
 
 .prof-pic {
@@ -146,7 +156,8 @@ p.about-me {
 }
 
 .card-image {
-  max-width: 90vw;
+  
+  min-width: 300px;
   height: auto;
 
 }
@@ -163,16 +174,13 @@ p.about-me {
   width: 40vw;
   text-align: center;
   margin: auto;
-  
-
 }
 
 .project-image {
   width: 14vw;
+  min-width: 100px;
   height: auto;
   margin: 2vh auto 0 auto;
-  
-  
 }
 
 .project-container {
@@ -183,7 +191,7 @@ p.about-me {
 }
 
 .text-size {
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 .alt-size {
