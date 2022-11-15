@@ -145,7 +145,7 @@ function Portfolio() {
 
                             <div className='card-body portfolio-card'>
 
-                                <a className="text-decoration-none" href='https://michaels32.github.io/password-generator/'>
+                                <a className="text-decoration-none" href='https://michaels32.github.io/Password-Generator/'>
                                     <h2 className='card-title portfolio-card hovering text-size'>Password Generator</h2>
                                 </a>
                                 <a className="text-decoration-none" href='https://michaels32.github.io/Password-Generator/'>
