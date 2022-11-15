@@ -16,6 +16,7 @@
 
 html {
   background-color: var(--bg);
+  overflow-x: hidden;
 }
 
 
@@ -46,7 +47,7 @@ main {
 
 
 .nav-container {
-  width: 100vw;
+  justify-content: space-between;
   padding-bottom: 3vh;
   background-color: var(--bg);
   margin: 0 1vw;
@@ -78,6 +79,10 @@ main {
 }
 .nav ul {
   margin-bottom: 0 !important;
+}
+
+.footer-pic {
+  width: 100vw;
 }
 
 .background {
@@ -129,11 +134,11 @@ p.about-me {
 }
 
 .navActive {
-  color: var(--primary);
+  color: var(--light);
 }
 
 .NavItem:active {
-  background-color: var(--primary); //some color of your choice//
+  background-color: var(--light); //some color of your choice//
 }
 
 .hovering:hover {
@@ -227,7 +232,9 @@ p.about-me {
 }
 
 .active {
-  color: var(--primary);
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */

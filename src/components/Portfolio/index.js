@@ -15,16 +15,16 @@ function Portfolio() {
     return (
         <FadeIn
             from='bottom'
-            positionOffset={900}
-            triggerOffset={200}
-            delayInMilliseconds={250}
+            positionOffset={500}
+            triggerOffset={0}
+            delayInMilliseconds={0}
             durationInMilliseconds={1000}
             >
             <section id="portfolio">
                 <div className='container background'>
                     <div className='row project-container'>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo7}
@@ -46,7 +46,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo0}
@@ -68,7 +68,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo1}
@@ -90,7 +90,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo2}
@@ -112,7 +112,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo3}
@@ -134,7 +134,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo4}
@@ -156,7 +156,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo5}
@@ -178,7 +178,7 @@ function Portfolio() {
 
                         </div>
 
-                        <div className='card portfolio-card col-7 col-sm-7 col-md-3 col-lg-3 col-xl-3'>
+                        <div className='card portfolio-card col-7 col-sm-5 col-md-3 col-lg-3 col-xl-3'>
 
                             <img
                                 src={photo6}
