@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="MSlogo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19062"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.75455247"
+     inkscape:cx="249.15431"
+     inkscape:cy="263.73249"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer17" />
+  <defs
+     id="defs19057">
+    <rect
+       x="4.5600485"
+       y="10.719778"
+       width="491.73506"
+       height="485.63385"
+       id="rect19126" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       inkscape:groupmode="layer"
+       id="layer17"
+       inkscape:label="Layer 3">
+      <ellipse
+         style="fill:#666666"
+         id="path19296"
+         cx="256.267"
+         cy="252.96919"
+         rx="256.96552"
+         ry="254.61426" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:478.723px;fill:#d7f4e3;stroke-width:2.49335"
+       x="213.16537"
+       y="499.82974"
+       id="text19182"><tspan
+         sodipodi:role="line"
+         id="tspan19180"
+         x="213.16537"
+         y="499.82974"
+         style="stroke-width:2.49335;fill:#d7f4e3">S</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer16"
+     inkscape:label="Layer 2">
+    <text
+       xml:space="preserve"
+       id="text19124"
+       style="font-size:192px;white-space:pre;shape-inside:url(#rect19126);fill:#5fd38d"
+       transform="matrix(2.4818715,0,0,2.2626885,-55.747858,-103.51519)"><tspan
+         x="4.5605469"
+         y="185.88812"
+         id="tspan19364">M</tspan></text>
+  </g>
+</svg>
