@@ -12,16 +12,16 @@ function Nav(props) {
 
     return (
         <header className='container'>
-            
+            <Link to='/' className='text-decoration-none spacing'>
+                <h1 className='logo'>
+                    <div className='title-size'>
+                        Michael Schneider
+                    </div>
+                </h1>
+            </Link>
 
             <nav className='nav-container row'>
-                <Link to='/' className='text-decoration-none'>
-                    <h1 className='logo'>
-                        <div className='navbar-brand title-size'>
-                             Michael Schneider
-                        </div>
-                    </h1>
-                </Link>
+
                 <ul className=" navbar has-shadow nav-links justify-content-around background ">
 
                     <NavLink exact='true' className={splitLocation[1] === "about" ? "active" : "nav"} to='/about'>
