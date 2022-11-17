@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Nav from '../Nav';
-import { Footer } from '../../assets/footer2.svg';
+import Footer from '../../assets/footer2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, } from '@fortawesome/free-brands-svg-icons';
 

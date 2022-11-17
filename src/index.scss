@@ -62,7 +62,7 @@ main {
   margin-right: 1vw;
 }
 
-.logo {
+.logo-top {
   color: var(--secondary);
 }
 
@@ -145,7 +145,7 @@ h1.about-me {
 }
 
 p.about-me {
-  font-size: .9rem;
+  font-size: .75rem;
 }
 
 .prof-pic {
@@ -220,6 +220,7 @@ p.about-me {
 
 .spacing {
   padding-top: 2vh;
+  align-self: center;
 }
 
 .form-input {

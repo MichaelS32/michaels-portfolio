@@ -13,7 +13,7 @@ function Nav(props) {
     return (
         <header className='container'>
             <Link to='/' className='text-decoration-none spacing'>
-                <h1 className='logo'>
+                <h1 className='logo-top'>
                     <div className='title-size'>
                         Michael Schneider
                     </div>
