@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/michaels-portfolio/static/css/main.9769dcc7.css",
-    "main.js": "/michaels-portfolio/static/js/main.aa353124.js",
+    "main.css": "/michaels-portfolio/static/css/main.73db873d.css",
+    "main.js": "/michaels-portfolio/static/js/main.4a130449.js",
     "static/js/787.86fd017a.chunk.js": "/michaels-portfolio/static/js/787.86fd017a.chunk.js",
     "static/media/photo7.png": "/michaels-portfolio/static/media/photo7.fc1705e678ec319235aa.png",
-    "static/media/photo6.png": "/michaels-portfolio/static/media/photo6.b2321724e9b3c6131fce.png",
     "static/media/bio-pic.jpg": "/michaels-portfolio/static/media/bio-pic.6676025cce73d267f484.jpg",
     "static/media/photo2.png": "/michaels-portfolio/static/media/photo2.4b9673b988f1a830e3a0.png",
+    "static/media/resume-screenshot.png": "/michaels-portfolio/static/media/resume-screenshot.503433abe60d58e7d708.png",
     "static/media/photo1.png": "/michaels-portfolio/static/media/photo1.d5c1f8cd87bb6e30f16c.png",
-    "static/media/michaelschneiderresume.pdf": "/michaels-portfolio/static/media/michaelschneiderresume.0ee208eb1df73ecc0999.pdf",
+    "static/media/MICHAELSCHNEIDERRResume.pdf": "/michaels-portfolio/static/media/MICHAELSCHNEIDERRResume.941619757fedcf88309f.pdf",
     "static/media/footer2.png": "/michaels-portfolio/static/media/footer2.2da8154a0afe40a42192.png",
     "static/media/photo4.png": "/michaels-portfolio/static/media/photo4.245bda219974d267003e.png",
-    "static/media/resume-screenshot.png": "/michaels-portfolio/static/media/resume-screenshot.265ce0af4dcfbaf8526c.png",
     "static/media/photo0.png": "/michaels-portfolio/static/media/photo0.1f6588c7840ac67149dd.png",
     "static/media/photo3.png": "/michaels-portfolio/static/media/photo3.1c48d5cc3af6e3022a5a.png",
     "static/media/photo5.png": "/michaels-portfolio/static/media/photo5.e3dae4e49eaf04249c62.png",
     "index.html": "/michaels-portfolio/index.html",
-    "main.9769dcc7.css.map": "/michaels-portfolio/static/css/main.9769dcc7.css.map",
-    "main.aa353124.js.map": "/michaels-portfolio/static/js/main.aa353124.js.map",
+    "main.73db873d.css.map": "/michaels-portfolio/static/css/main.73db873d.css.map",
+    "main.4a130449.js.map": "/michaels-portfolio/static/js/main.4a130449.js.map",
     "787.86fd017a.chunk.js.map": "/michaels-portfolio/static/js/787.86fd017a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9769dcc7.css",
-    "static/js/main.aa353124.js"
+    "static/css/main.73db873d.css",
+    "static/js/main.4a130449.js"
   ]
 }
